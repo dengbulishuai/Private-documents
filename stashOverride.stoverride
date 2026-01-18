@@ -1,7 +1,11 @@
-+rules:
-  - DOMAIN-SUFFIX,cp4.cloudflare.com,🤖 AI # Appleai
+# Stash Override - Routing Rules Add-on
+# 用途：新增分流规则（追加到 rules）
+# 注意：策略组名必须与你 Stash 里实际存在的一致（如：🤖 AI、🛩 特殊网站）
+
+rules:
+  - DOMAIN-SUFFIX,cp4.cloudflare.com,🤖 AI # AppleAI
   - DOMAIN-SUFFIX,apple-relay.fastly-edge.com,🤖 AI
   - DOMAIN-SUFFIX,apple-relay.cloudflare.com,🤖 AI
+  - DOMAIN-SUFFIX,apple-relay.apple.com,🤖 AI
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,🛩 特殊网站 # Gemini
   - DOMAIN-SUFFIX,google.com,🛩 特殊网站
-  - DOMAIN-SUFFIX,apple-relay.apple.com,🤖 AI
