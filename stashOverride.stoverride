@@ -2,6 +2,8 @@
 # 用途：新增分流规则（追加到 rules）
 # 注意：策略组名必须与你 Stash 里实际存在的一致（如：🤖 AI、🛩 特殊网站）
 
+name: AI_and_Special_Routing
+
 rules:
   - DOMAIN-SUFFIX,cp4.cloudflare.com,🤖 AI # AppleAI
   - DOMAIN-SUFFIX,apple-relay.fastly-edge.com,🤖 AI
