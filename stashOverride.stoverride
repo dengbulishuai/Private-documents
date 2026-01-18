@@ -1,4 +1,4 @@
-rules:
++rules:
   - DOMAIN-SUFFIX,cp4.cloudflare.com,🤖 AI # Appleai
   - DOMAIN-SUFFIX,apple-relay.fastly-edge.com,🤖 AI
   - DOMAIN-SUFFIX,apple-relay.cloudflare.com,🤖 AI
